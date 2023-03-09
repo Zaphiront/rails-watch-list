@@ -20,10 +20,10 @@
 # puts "Finished!"
 
 puts "Creating bookmarks..."
-# Bookmark.create(comment: "Good movie", movie_id: 1, list_id: 1)
-# Bookmark.create(comment: "Okey movie", movie_id: 2, list_id: 2)
-# Bookmark.create(comment: "Soso movie", movie_id: 3, list_id: 3)
-# Bookmark.create(comment: "Terrible movie", movie_id: 4, list_id: 4)
+Bookmark.create(comment: "Good movie", movie_id: 1, list_id: 1)
+Bookmark.create(comment: "Okey movie", movie_id: 2, list_id: 2)
+Bookmark.create(comment: "Soso movie", movie_id: 3, list_id: 3)
+Bookmark.create(comment: "Terrible movie", movie_id: 4, list_id: 4)
 Bookmark.create(comment: "Terrible movie", movie_id: 1, list_id: 2)
 Bookmark.create(comment: "Terrible movie", movie_id: 2, list_id: 3)
 
